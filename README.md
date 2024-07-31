@@ -3,7 +3,7 @@
 <img src="https://images.unsplash.com/photo-1718414738167-0dd5de626229?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quote" width="500" height="300"/>
 
 ## Bienvenido
-Welcome to the CRUD Web Application project! This project demonstrates a simple and effective way to create a CRUD (Create, Read, Update, Delete) web application using Python, Django, and MySQL.
+¡Bienvenido al proyecto de aplicación web CRUD! Este proyecto demuestra una manera simple y eficaz de crear una aplicación web CRUD (Crear, Leer, Actualizar, Eliminar) utilizando Python y Flask.
 
 ## Features
 - **Create:** Agrega nuevos registros al archivo JSON.
