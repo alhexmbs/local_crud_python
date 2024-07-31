@@ -16,10 +16,15 @@ h1 {
     color: white
 }
 
-a.add-btn{
+.add-btn{
     background: linear-gradient(to right, #8935CA, #DC3B6F);
-    color: white
+    color: white;
+    box-shadow: rgba(245, 243, 243, 0.505) 1.95px 1.95px 2.6px;
 }
+
+.form-group {
+    color: white;
+} 
 
 .modal-bg {
     background: linear-gradient(#3C4487, #8935CA);
@@ -30,7 +35,7 @@ img {
     height: auto;
     width: 30rem;
     border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.559) 0px 5px 15px;
+    box-shadow: rgb(185, 194, 203) 0px 20px 30px -10px;
 }
 
 th {
