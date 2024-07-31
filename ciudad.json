@@ -3,5 +3,10 @@
         "ciudad": "santiago",
         "pais": "chile",
         "dpto": ""
+    },
+    {
+        "ciudad": "chiclayo",
+        "pais": "perú",
+        "dpto": "lambayeque"
     }
 ]
