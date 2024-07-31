@@ -1,14 +1,17 @@
 {% extends "base.html" %}
 {% block title %}Ciudades{% endblock %}
 {% block content %}
-<h1>Lista de Ciudades</h1>
-<a href="{{ url_for('add_city') }}" class="btn btn-primary">Agregar Ciudad</a>
+<div class="d-flex justify-content-center align-items-center">
+  <h1>Lista de Ciudades</h1>
+  <a href="{{ url_for('add_city') }}" class="btn add-btn ml-3">Agregar Ciudad</a>
+</div>
+
 <table class="table">
   <thead>
     <tr>
       <th>Ciudad</th>
-      <th>País</th>
       <th>Departamento</th>
+      <th>País</th>
       <th>Acciones</th>
     </tr>
   </thead>
@@ -16,17 +19,19 @@
     {% for ciudad in ciudades %}
     <tr>
       <td>{{ ciudad['ciudad'].title() }}</td>
-      <td>{{ ciudad['pais'].title() }}</td>
       <td>{{ ciudad['dpto'].title() }}</td>
+      <td>{{ ciudad['pais'].title() }}</td>
       <td>
         <a href="{{ url_for('edit_city', index=loop.index0) }}" class="btn btn-warning">Editar</a>
         
-        <form action="{{ url_for('delete_city', index=loop.index0) }}" method="post" style="display:inline;">
-          <button type="submit" class="btn btn-danger">Eliminar</button>
-        </form>
+        <a href="{{ url_for('delete_city', index=loop.index0) }}" class="btn btn-danger delete-btn">Eliminar</a>
+
       </td>
     </tr>
+
     {% endfor %}
   </tbody>
 </table>
+
+<img src="../static/image.gif" alt="gif">
 {% endblock %}

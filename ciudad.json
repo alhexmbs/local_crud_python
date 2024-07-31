@@ -1,12 +1,17 @@
 [
     {
-        "ciudad": "santiago",
-        "pais": "chile",
-        "dpto": ""
-    },
-    {
         "ciudad": "chiclayo",
         "pais": "perú",
         "dpto": "lambayeque"
+    },
+    {
+        "ciudad": "chota",
+        "pais": "perú",
+        "dpto": "cajamarca"
+    },
+    {
+        "ciudad": "lima",
+        "pais": "perú",
+        "dpto": ""
     }
 ]
